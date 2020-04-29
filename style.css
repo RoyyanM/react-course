@@ -34,7 +34,7 @@ html {
 
 .container {
   width: 600px;
-  height: 600px;
+  height: 800px;
   background-color: #f2eecb;
   border-radius: 4px;
 
@@ -64,8 +64,49 @@ html {
 .header-btn {
   font-size: 1.8rem;
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 
-  padding: 24px;
+  padding: 20px;
+  cursor: pointer;
+
+  background: unset;
+  border: unset;
+  outline: unset;
+}
+
+.add {
+  padding: 16px;
+}
+
+.add-form {
+  display: flex;
+  align-items: flex-start;
+}
+
+.add-input {
+  background: unset;
+  border: unset;
+  padding: 0 48px;
+
+  flex: 1;
+
+  border-bottom: 1px solid var(--main-red-color);
+  outline: unset;
+
+  font-family: "Shadows Into Light", cursive;
+  font-size: 25px;
+  text-transform: lowercase;
+}
+
+.add-btn {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+
+  padding: 16px;
+  padding-right: unset;
+  cursor: pointer;
+
   background: unset;
   border: unset;
   outline: unset;
